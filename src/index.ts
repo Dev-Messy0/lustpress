@@ -14,8 +14,8 @@ const app = express();
 app.get("/", slow, limiter, async (req, res) => {
   res.send({
     success: true,
-    playground: "https://sinkaroid.github.io/lustpress",
-    endpoint: "https://github.com/sinkaroid/lustpress/blob/master/README.md#routing",
+    playground: "https://porn-api.vercel.app",
+    endpoint: "https://github.com/Dev-Messy0/lustpress/blob/master/README.md#routing",
     date: new Date().toLocaleString(),
     rss: lust.currentProccess().rss,
     heap: lust.currentProccess().heap,
